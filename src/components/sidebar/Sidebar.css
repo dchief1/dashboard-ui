@@ -1,0 +1,154 @@
+.sidebar {
+    flex: 1;
+    position: sticky;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.sidebarWrapper {
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    border-right: 1px solid #F0F0F0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.proTag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 37px;
+    margin-top: 70px;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+/* .icon-profile {
+    padding-left: 40px;
+} */
+
+.text-profile {
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #989898;
+    text-decoration: none;
+}
+
+.basket {
+    display: flex;
+    align-items: flex-start;
+    background: #549A9A;
+    border-radius: 7px;
+    width: 171px;
+    height: 52px;
+    cursor: pointer;
+    /* margin-left: 40px; */
+   
+}
+
+.basket-group {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+.basket-icon {
+    width: 24px;
+    height: 20px;
+    margin-left: 15px;
+
+}
+
+.basket-span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.logout-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.logout-1 {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1A8282;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 42px;
+}
+
+.logHtag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.loghtag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #C0C0C0;
+}
+
+.logout-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+

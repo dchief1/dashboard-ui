@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.rightbar1 {
+    flex: 2;
+    height: 100%;
+}
+
+.rightwrapper1 {
+    max-width: 560px;
+    height: 100vh;
+}
+
+.topbar {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.rightIcon {
+    width: 16.92px;
+    height: 13px;
+    margin-right: -90px;
+    
+}
+.hCart {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    color: #2E2C2C;
+    width: 80px;
+    height: 30px;
+    /* flex: 0.1; */
+}
+
+.shop-content {
+    margin-top: -40px;
+    /* margin-left: 220px;
+    flex: 1; */
+}
+
