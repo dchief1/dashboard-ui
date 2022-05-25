@@ -7,12 +7,12 @@ function App() {
   return (
     <div className="App"> 
      <BrowserRouter>
-     <Routes>
-     <Route path='/' element= {<LandingLayout />} />
+        <Routes>
+           <Route path='/' element= {<LandingLayout />} />
 
-     <Route path='/basket'  element={<BasketLayout/>} />
+           <Route path='/basket'  element={<BasketLayout/>} />
      
-   </Routes>
+        </Routes>
      </BrowserRouter>
      
     </div>
