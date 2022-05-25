@@ -51,7 +51,7 @@ export default function Sidebar() {
 
             <div className='logout-1'>
               <h2>LE</h2>
-            </div>
+            </div> 
 
             <h2 className='logHtag'>Laura Edson</h2>
             <span className='loghtag'>lauraedson@work.com</span>

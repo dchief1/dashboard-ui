@@ -3,13 +3,15 @@
 }
 
 .rightbar1 {
-    flex: 2;
+    flex: 3;
     height: 100%;
+    box-shadow: -4px 0px 4px  rgba(158, 158, 158, 0.4);
 }
 
 .rightwrapper1 {
-    max-width: 560px;
+    max-width: 600px;
     height: 100vh;
+    
 }
 
 .topbar {
@@ -22,7 +24,7 @@
 .rightIcon {
     width: 16.92px;
     height: 13px;
-    margin-right: -90px;
+    margin-right: -190px;
     
 }
 .hCart {
@@ -44,3 +46,190 @@
     flex: 1; */
 }
 
+.cocoTag {
+    background: rgba(86, 177, 160, 0.2);
+    border-radius: 13px;
+    width: 445px;
+    height: 110px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.cocoTag1 {
+    margin-top: 10px;
+}
+.cocowrap {
+    display: flex;
+    align-items: center;
+}
+.coco-icon {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C9E8D9;
+    width: 66px;
+    height: 63.8px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.coco-span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #514D4D;
+    width: 77px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.coco-text {
+    display: flex;
+    align-items: center;
+    width: 43px;
+    height: 33px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #2E2C2C;
+    margin-left: 100px;
+}
+
+.coco-box {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 80px;
+    height: 26px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.box-wrap {
+    display: flex;
+    align-items: center;
+}
+.box-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #2C2B2B;
+    width: 25px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+.box-icon {
+    width: 11px;
+    height: 5px;
+    margin-left: 15px;
+}
+
+.coco-profile {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #406767;
+    width: 25px;
+    height: 25px;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+.coco-pText {
+    width: 14px;
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.shop-done {
+    background: #FFFFFF;
+    border-top: 2px solid rgba(158, 158, 158, 0.4) ;
+    border-radius: 1px;
+    width: 500px;
+    height: 91px;
+    margin-top: 300px;
+}
+.done-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total {
+    font-family: 'Poppins';
+    width: 45px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: rgba(46, 44, 44, 0.56);
+}
+.done-text {
+    font-family: 'Poppins';
+    width: 73px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #2E2C2C;
+}
+
+.done-textTag {
+    background: #549A9A;
+    border-radius: 3px;
+    width: 179px;
+    height: 40px;
+    margin-top: 20px;
+}
+.done-text {
+    font-family: 'Poppins';
+    width: 124px;
+    height: 23px;
+    margin: auto;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.amount {
+    font-family: 'Poppins';
+    width: 73px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #2E2C2C;
+}
+.total-tag {
+    margin-left: 25px;
+    margin-top: 20px;
+}
