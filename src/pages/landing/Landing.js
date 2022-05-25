@@ -11,10 +11,16 @@ export default function Landing() {
         <div className='landText'>
           <h2 className='landtext'>Good Evening, Laura!</h2>
 
-         {/*} <div className='search'>
-            <input className='input' type='text' placeholder='search' />
-            <img src={search} alt='search-icon' />
-            </div> */}
+        {/* Search Basket Starts*/}   
+         <div className='search'>
+          <div className='search-wrap'>
+            
+              <img className='search-icon' src={search} alt='search-icon' />
+              <input className='input-des' type='text' placeholder='Search Basket' />
+            
+          </div>
+         </div>
+        {/* Search Basket Ends*/} 
           
         </div>
 

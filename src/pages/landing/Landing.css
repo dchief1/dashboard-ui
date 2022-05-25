@@ -33,20 +33,44 @@
     color: #2E2C2C;
 }
 
-/* .search {
+.search {
     background: #FFFFFF;
-border: 1px solid #F0F0F0;
-border-radius: 6px;
-box-sizing: border-box;
-
-width: 254px;
-height: 38px;
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 254px;
+    height: 38px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.search-wrap {
+    display: flex;
+    align-items: center;
+}
+.search-display {
+    font-family: 'Poppins';
+    width: 98px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #C7C3C3;
+}
+.input-des {
+    margin-left: 10px;
+    margin-top: 6px;
+    border: none;
+    outline: none;
+}
+.search-icon {
+    margin-left: 10px;
+    margin-top: 6px;
 }
 
-.input {
-    margin-left: 180px;
-    outline: none;
-} */
+
 
 .landgroup-1 {
     /* width: 739px; */

@@ -1,7 +1,7 @@
 import React from 'react'
 import './BasketLand.css'
 // import { Link } from 'react-router-dom'
-import {search, truck, credit, gift, shopping} from '../../images'
+import { truck, credit} from '../../images'
 import { BiStoreAlt } from "react-icons/bi";
 
 export default function Landing() {
@@ -10,11 +10,6 @@ export default function Landing() {
       <div className=' landwrapp1'>
         <div className='landText landText1'>
           <h2 className='landtext1'>Good Evening, Laura!</h2> 
-
-         {/*} <div className='search'>
-            <input className='input' type='text' placeholder='search' />
-            <img src={search} alt='search-icon' />
-            </div> */}
           
         </div>
 
